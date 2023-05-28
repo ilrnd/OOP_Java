@@ -21,5 +21,15 @@ public class VendingMachine {
         }
         return null;
     }
+    public Chocolate getChocolate(double calories){
+        for (Product product : products){
+            if (product instanceof Chocolate){
+                if (((Chocolate) product).getCalories() == calories){
+                    return (Chocolate) product;
+                }
+            }
+        }
+        return null;
+    }
 
 }
