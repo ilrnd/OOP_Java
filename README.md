@@ -10,3 +10,6 @@ https://github.com/ilrnd/OOP_Java/tree/main/lesson3_1/src/main/java/ru/geekbrain
 
 **Домашнее задание после 4-го семинара:
 https://github.com/ilrnd/OOP_Java/tree/main/lesson4/src/main/java/ru/geekbrains/lesson4/homework
+
+**Домашнее задание после 5-го семинара:
+https://github.com/ilrnd/OOP_Java/tree/main/lesson5/src/main/java/ru/geekbrains/lesson5
