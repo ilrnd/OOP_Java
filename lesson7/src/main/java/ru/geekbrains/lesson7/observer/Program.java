@@ -19,10 +19,12 @@ public class Program {
         Master ivanov = new Master("Ivanov", Profession.MIDDLE);
         Master petrov = new Master("Petrov", Profession.SENIOR);
         Student sidorov = new Student("Sidorov", Profession.JUNIOR);
+        Manager semenov = new Manager("Semenov", Profession.JUNIOR);
 
         jobAgency.registerObserver(ivanov);
         jobAgency.registerObserver(petrov);
         jobAgency.registerObserver(sidorov);
+        jobAgency.registerObserver(semenov);
 
         JobVacancy vacancyJuniour = new JobVacancy(geekBrains,20000, Profession.JUNIOR);
         JobVacancy vacancyMiddle = new JobVacancy(google, 30000, Profession.MIDDLE);
